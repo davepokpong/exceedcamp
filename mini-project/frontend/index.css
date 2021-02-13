@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.tpblck {
+    background-color: #ffd17c;
+    width: 100%;
+}
+
 * {
     background-color: #fcb941;
 }
