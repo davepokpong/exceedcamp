@@ -3,7 +3,10 @@ const cache = []
 
 
 setInterval(() => {
-    fetch("158.108.182.14:50004/check")
+    fetch("http://158.108.182.0:4321/app/exceed_backend/exceed_backend/g12/view/1", {
+        method: "GET",
+        headers: { "Content-Type": "application/json" }
+    })
     .then(data => data.json())
     .then(datas => {
         datas.forEach(data => {
