@@ -14,7 +14,7 @@
     justify-content: center;
 }
 
-#rec1 {
+.rec1 {
     width: 80px;
     height: 160px;
     border: 5px solid gray;
@@ -22,7 +22,7 @@
     background-color: #0eaa00;
 }
 
-#rec2 {
+.rec2 {
     width: 80px;
     height: 160px;
     border: 5px solid gray;
@@ -30,7 +30,7 @@
     background-color: #0eaa00;
 }
 
-#rec3 {
+.rec3 {
     width: 80px;
     height: 160px;
     border: 5px solid gray;
@@ -38,7 +38,7 @@
     background-color: #0eaa00;
 }
 
-#rec4 {
+.rec4 {
     width: 80px;
     height: 160px;
     border: 5px solid gray;
