@@ -20,7 +20,7 @@ const cache2 = [{
     "time": "0"
 }]
 
-const cache = []
+const cache = [{}]
 var link = document.createElement('index.css');
 
 // var rec1 = document.getElementsByID("rec").s;
