@@ -5,6 +5,10 @@
     font-size: 100%;
 }
 
+.topic {
+    text-align: center;
+}
+
 * {
     background-color: #fcb941;
 }
