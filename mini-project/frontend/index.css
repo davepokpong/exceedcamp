@@ -3,8 +3,6 @@
 .rectangle {
     width: 80px;
     height: 160px;
-    display: flex;
-    justify-content: center;
 }
 #rec1 {
     background-color: #0eaa00;
