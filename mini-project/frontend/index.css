@@ -22,7 +22,7 @@ hr {
     text-align: center;
 }
 
-#tpblck {
+.tpblck {
     background-color: #ffd17c;
     width: 100%;
     height: 20%;
