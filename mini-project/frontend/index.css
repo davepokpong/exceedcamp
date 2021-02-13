@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers");
 
-.h1 {
+.topic {
     font-family: 'Bangers', cursive;
     font-size: 100%;
 }
@@ -52,12 +52,9 @@
     background-color: #57C9AE;
 }
 
-.p {
+.slot1 {
     font-family: 'Bangers', cursive;
     font-size: 75%;
-}
-
-.slot1 {
     width: 200px;
     height: 75px;
     border: 5px solid #28364A;
@@ -66,6 +63,8 @@
 }
 
 .slot2 {
+    font-family: 'Bangers', cursive;
+    font-size: 75%;
     width: 200px;
     height: 75px;
     border: 5px solid #28364A;
@@ -74,6 +73,8 @@
 }
 
 .slot3 {
+    font-family: 'Bangers', cursive;
+    font-size: 75%;
     width: 200px;
     height: 75px;
     border: 5px solid #28364A;
@@ -82,6 +83,8 @@
 }
 
 .slot4 {
+    font-family: 'Bangers', cursive;
+    font-size: 75%;
     width: 200px;
     height: 75px;
     border: 5px solid #28364A;
