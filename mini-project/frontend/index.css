@@ -29,10 +29,9 @@ hr {
     justify-content: center;
 }
 
-.slot {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.State {
+    text-align: center;
+    background-color: #57C9AE;
 }
 
 .rec1 {
