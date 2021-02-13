@@ -50,11 +50,11 @@ setInterval(() => {
 
     cache.forEach(timeSlice =>{
         console.log(timeSlice.time.slice(11,19));
-        var h = parseInt(timeSlice.time.slice(11,13));
+        var h = Number(timeSlice.time.slice(11,13));
         console.log(h);
-        var m = parseInt(timeSlice.time.slice(14,16));
+        var m = Number(timeSlice.time.slice(14,16));
         console.log(m);
-        var s = parseInt(timeSlice.time.slice(17,19));
+        var s = Number(timeSlice.time.slice(17,19));
         console.log(s);
     })
 }, 2000);
