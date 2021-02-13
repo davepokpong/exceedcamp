@@ -1,23 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto");
 
 .rectangle {
-    display: block;
-    margin: auto;
     width: 80px;
     height: 160px;
 }
 #rec1 {
+    display: block;
+    margin: auto;
     background-color: #0eaa00;
 }
 
 #rec2 {
+    display: block;
+    margin: auto;
     background-color: #0eaa00;
 }
 
 #rec3 {
+    display: block;
+    margin: auto;
     background-color: #0eaa00;
 }
 
 #rec4 {
+    display: block;
+    margin: auto;
     background-color: #d1000a;
 }
