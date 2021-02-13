@@ -6,7 +6,7 @@
 }
 
 * {
-    background: linear-gradient(180deg, #007095 0%, #49BAD6 100%);
+    background-color: linear-gradient(180deg, #007095 0%, #49BAD6 100%);
 }
 .rectangle {
     display: flex;
