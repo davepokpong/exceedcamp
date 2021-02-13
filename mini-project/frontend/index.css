@@ -2,7 +2,7 @@
 
 * {
     font-family: 'Bangers', cursive;
-    font-size: 50%;
+    font-size: 100%;
 
 }
 
@@ -16,33 +16,33 @@
 }
 
 .rec1 {
-    width: 20%;
-    height: 30%;
-    border: 1% solid #28364A;
-    margin: 5%;
+    width: 200px;
+    height: 300px;
+    border: 5px solid #28364A;
+    margin: 50px;
     background-color: #57C9AE;
 }
 
 .rec2 {
-    width: 20%;
-    height: 30%;
-    border: 1% solid #28364A;
-    margin: 5%;
+    width: 200px;
+    height: 300px;
+    border: 5px solid #28364A;
+    margin: 50px;
     background-color: #57C9AE;
 }
 
 .rec3 {
-    width: 20%;
-    height: 30%;
-    border: 1% solid #28364A;
-    margin: 5%;
+    width: 200px;
+    height: 300px;
+    border: 5px solid #28364A;
+    margin: 50px;
     background-color: #57C9AE;
 }
 
 .rec4 {
-    width: 20%;
-    height: 30%;
-    border: 1% solid #28364A;
-    margin: 5%;
+    width: 200px;
+    height: 300px;
+    border: 5px solid #28364A;
+    margin: 50px;
     background-color: #EE4A52;
 }
