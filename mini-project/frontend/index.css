@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers");
 
-* {
-    font-family: 'Bangers', cursive;
-
+#h1 {
+    font-size: 300px;
 }
 
 * {
