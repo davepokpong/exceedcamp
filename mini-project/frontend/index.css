@@ -14,6 +14,11 @@ border: 0;
   height: 1px;
 }
 
+
+* {
+    background-color: #fcb941;
+}
+
 #topic {
     text-align: center;
 }
@@ -24,9 +29,6 @@ border: 0;
     height: 20%;
 }
 
-* {
-    background-color: #fcb941;
-}
 .rectangle {
     display: flex;
     flex-direction: row;
