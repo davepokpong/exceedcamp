@@ -5,28 +5,29 @@
     font-size: 100%;
 }
 
-hr {
-border: 0;
-  clear: both;
-  display: block;
-  width: 100%;
-  background-color: #111111;
-  height: 1px;
+* {
+    background-color: #fcb941;
 }
+
+hr {
+    border: 0;
+      clear: both;
+      display: block;
+      width: 100%;
+      background-color: #111111;
+      height: 3px;
+    }
 
 #topic {
     text-align: center;
 }
 
-#tpblck {
+.tpblck {
     background-color: #ffd17c;
     width: 100%;
     height: 20%;
 }
 
-* {
-    background-color: #fcb941;
-}
 .rectangle {
     display: flex;
     flex-direction: row;
