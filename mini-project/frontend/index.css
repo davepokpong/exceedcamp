@@ -17,7 +17,7 @@
 .rec1 {
     width: 80px;
     height: 160px;
-    border: 5px solid gray;
+    border: 5px solid rgb(15, 15, 15);
     margin: 50px;
     background-color: #0eaa00;
 }
@@ -25,7 +25,7 @@
 .rec2 {
     width: 80px;
     height: 160px;
-    border: 5px solid gray;
+    border: 5px solid rgb(15, 15, 15);
     margin: 50px;
     background-color: #0eaa00;
 }
@@ -33,7 +33,7 @@
 .rec3 {
     width: 80px;
     height: 160px;
-    border: 5px solid gray;
+    border: 5px solid rgb(15, 15, 15);
     margin: 50px;
     background-color: #0eaa00;
 }
@@ -41,7 +41,7 @@
 .rec4 {
     width: 80px;
     height: 160px;
-    border: 5px solid gray;
+    border: 5px solid rgb(15, 15, 15);
     margin: 50px;
     background-color: #d1000a;
 }
