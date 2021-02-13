@@ -1,15 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Bangers");
 
-* {
+.h1 {
     font-family: 'Bangers', cursive;
     font-size: 100%;
-
 }
 
 * {
     background-color: #fcb941;
 }
 .rectangle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slot {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,4 +50,41 @@
     border: 5px solid #28364A;
     margin: 50px;
     background-color: #57C9AE;
+}
+
+.p {
+    font-family: 'Bangers', cursive;
+    font-size: 75%;
+}
+
+.slot1 {
+    width: 200px;
+    height: 75px;
+    border: 5px solid #28364A;
+    margin: 50px;
+    background-color: #ffbff1;
+}
+
+.slot2 {
+    width: 200px;
+    height: 75px;
+    border: 5px solid #28364A;
+    margin: 50px;
+    background-color: #ffbff1;
+}
+
+.slot3 {
+    width: 200px;
+    height: 75px;
+    border: 5px solid #28364A;
+    margin: 50px;
+    background-color: #ffbff1;
+}
+
+.slot4 {
+    width: 200px;
+    height: 75px;
+    border: 5px solid #28364A;
+    margin: 50px;
+    background-color: #ffbff1;
 }
