@@ -1,16 +1,43 @@
 app = document.getElementById("app");
-const cache = []
+const cache = [{
+    "slot": 1,
+    "state": 0,
+    "time": 0
+},
+{
+    "slot": 2,
+    "state": 0,
+    "time": 0
+},
+{
+    "slot": 3,
+    "state": 0,
+    "time": 0
+},
+{
+    "slot": 4,
+    "state": 0,
+    "time": 0
+},
+{
+    "slot": 5,
+    "state": 0,
+    "time": "Sat, 13 Feb 2021 06:41:21 GMT"
+}]
 
 
-setInterval(() => {
-    fetch("http://158.108.182.0:4321/app/exceed_backend/exceed_backend/g12/view/1", {
-        method: "GET",
-        headers: { "Content-Type": "application/json" }
-    })
-    .then(data => data.json())
-    .then(datas => {
-        datas.forEach(data => {
-            console.log(datas)
-        });
+fetch("http://158.108.182.14:50004/check", {
+    method: "GET",
+})
+.then(data => data.json())
+.then(datas => {
+    datas.forEach(([key, value]) => {
+        console.log(`${key} ${value}`)
     });
-}, 5000);
+});
+
+
+
+// data.forEach(cache => {
+//     console.log(`${key} ${value}`)
+// })
