@@ -1,6 +1,7 @@
 app = document.getElementById("app");
 const cache = []
-
+rec1 = document.getElementById("rec1");
+rec2 = document.getElementById("rec2")
 
 setInterval(() => {
     fetch("http://158.108.182.0:4321/app/exceed_backend/exceed_backend/g12/view/1", {
