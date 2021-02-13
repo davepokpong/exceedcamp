@@ -6,7 +6,7 @@
 }
 
 * {
-    background-color: #fffea9;
+    background: linear-gradient(180deg, #007095 0%, #49BAD6 100%);
 }
 .rectangle {
     display: flex;
@@ -17,31 +17,31 @@
 .rec1 {
     width: 80px;
     height: 160px;
-    border: 5px solid rgb(15, 15, 15);
+    border: 5px solid #28364A;
     margin: 50px;
-    background-color: #0eaa00;
+    background-color: #57C9AE;
 }
 
 .rec2 {
     width: 80px;
     height: 160px;
-    border: 5px solid rgb(15, 15, 15);
+    border: 5px solid #28364A;
     margin: 50px;
-    background-color: #0eaa00;
+    background-color: #57C9AE;
 }
 
 .rec3 {
     width: 80px;
     height: 160px;
-    border: 5px solid rgb(15, 15, 15);
+    border: 5px solid #28364A;
     margin: 50px;
-    background-color: #0eaa00;
+    background-color: #57C9AE;
 }
 
 .rec4 {
     width: 80px;
     height: 160px;
-    border: 5px solid rgb(15, 15, 15);
+    border: 5px solid #28364A;
     margin: 50px;
-    background-color: #d1000a;
+    background-color: #EE4A52;
 }
