@@ -11,7 +11,7 @@ const cache2 = [{
 },
 {
     "slot": 3,
-    "state": 1,
+    "state": 0,
     "time": 0
 },
 {
@@ -33,15 +33,19 @@ fetch("https://exceed12.cpsk-club.xyz", {
 .then(data => data.json())
 .then(data => console.log(data))
 
-cache2.forEach(x =>{
-    if(x.state == '1'){
-        console.log(x.slot);
-        // $('rec1').css('background-color','green')}
-        document.getElementById(x.slot).style.backgroundColor="#EE4A52"
-    }    
-    if(x.state == '0'){
-        console.log(x.slot);
-        // $('rec1').css('background-color','green')}
-        document.getElementById(x.slot).style.backgroundColor="#57C9AE"
-    }
-})
+setInterval(() => {
+    cache2.forEach(x =>{
+        if(x.state == '1'){
+            console.log(x.slot);
+            // $('rec1').css('background-color','green')}
+            document.getElementById(x.slot).style.backgroundColor="#EE4A52"
+        }    
+        if(x.state == '0'){
+            console.log(x.slot);
+            // $('rec1').css('background-color','green')}
+            document.getElementById(x.slot).style.backgroundColor="#57C9AE"
+        }
+    })
+}, 2000);
+
+
