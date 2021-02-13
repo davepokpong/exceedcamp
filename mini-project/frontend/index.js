@@ -31,10 +31,11 @@ fetch("https://exceed12.cpsk-club.xyz/check", {
     headers: { "Content-Type": "application/json" },
 })
 .then(data => data.json())
-.then(data => console.log(data))
+.then(data => {cache.push(data);console.log(data)})
+
 
 setInterval(() => {
-    cache2.forEach(x =>{
+    cache.forEach(x =>{
         if(x.state == '1'){
             console.log(x.slot);
             // $('rec1').css('background-color','green')}
@@ -45,13 +46,16 @@ setInterval(() => {
             // $('rec1').css('background-color','green')}
             document.getElementById(x.slot).style.backgroundColor="#57C9AE"
         }
-    })
+    });
 
-    cache2.forEach(timeSlice =>{
+    cache.forEach(timeSlice =>{
         console.log(timeSlice.time.slice(11,19));
-        console.log(timeSlice.time.slice(11,13));
-        console.log(timeSlice.time.slice(14,16));
-        console.log(timeSlice.time.slice(17,19));
+        var h = parseInt(timeSlice.time.slice(11,13));
+        console.log(h);
+        var m = parseInt(timeSlice.time.slice(14,16));
+        console.log(m);
+        var s = parseInt(timeSlice.time.slice(17,19));
+        console.log(s);
     })
 }, 2000);
 
