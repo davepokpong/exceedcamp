@@ -12,6 +12,7 @@
     width: 80px;
     height: 160px;
     display: flex;
+    padding: 100px;
 }
 
 #rec1 {
